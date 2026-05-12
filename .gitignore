@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+*.local
+
+# Logs & debug
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor & OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Env (do not commit secrets)
+.env
+.env.*
+!.env.example
+
+# Vercel
+.vercel
+
+# Test / coverage
+coverage/
