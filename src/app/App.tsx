@@ -8,7 +8,6 @@ import GameDetailView from './components/GameDetailView';
 import CosmicBackground from './components/CosmicBackground';
 import StatsOverlay from './components/StatsOverlay';
 import HelpPanel from './components/HelpPanel';
-import WelcomeScreen from './components/WelcomeScreen';
 import SearchBar from './components/SearchBar';
 import SortControls, { type SortOption } from './components/SortControls';
 import type { Game } from './data/gameData';
@@ -69,9 +68,6 @@ export default function App() {
   // Grid View Mode
   return (
     <div className="size-full bg-slate-100 text-slate-900 overflow-hidden flex flex-col relative">
-      {/* Welcome Screen */}
-      <WelcomeScreen />
-
       {/* Help Panel */}
       <HelpPanel />
 

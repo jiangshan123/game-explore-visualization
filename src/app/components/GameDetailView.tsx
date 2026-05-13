@@ -436,15 +436,15 @@ export default function GameDetailView({
                 <div className="grid grid-cols-2 gap-2">
                   <div>
                     <div className="text-2xl font-black text-slate-900">{networkStats.nodeCount}</div>
-                    <div className="text-[10px] text-slate-900 font-extrabold mt-0.5">分量内游戏</div>
+                    <div className="text-[10px] text-slate-900 font-extrabold mt-0.5">Games in cluster</div>
                   </div>
                   <div>
                     <div className="text-2xl font-black text-slate-900">{networkStats.similarEdgeCount}</div>
-                    <div className="text-[10px] text-slate-900 font-extrabold mt-0.5">相似边</div>
+                    <div className="text-[10px] text-slate-900 font-extrabold mt-0.5">Similarity edges</div>
                   </div>
                   <div className="col-span-2 pt-1.5 border-t border-sky-200">
                     <div className="text-lg font-black text-slate-900">{networkStats.directSimilarCount}</div>
-                    <div className="text-[10px] text-slate-900 font-extrabold mt-0.5">当前直接相似</div>
+                    <div className="text-[10px] text-slate-900 font-extrabold mt-0.5">Directly similar</div>
                   </div>
                 </div>
               ) : (
